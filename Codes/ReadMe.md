@@ -25,7 +25,7 @@ The jupyter kernel might not initialize, The following two problems might be the
 		pip uninstall h5py
 		pip install h5py
 
-5) Install other dependencies for the project
-	conda install pandas
-	conda install numpy
-	conda install -c anaconda scikit-learn
+5) Install other dependencies for the project:
+	* conda install pandas
+	* conda install numpy
+	* conda install -c anaconda scikit-learn
