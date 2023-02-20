@@ -1,7 +1,5 @@
 # FakeNewsDetection
-- Test
-- Test 1
-  1. Justin
+
 This project aims to design a system for Automatic Fake News Identification. The basis for fake news detection in stream of like news threads, where a news has a title and its associated body text consists in assessing the consistency between the title and message content.
 1.	Initially, start by studying the Fake News Challenge Initiative and first competition FNC-1, available at Fake News Challenge. In the latter, four classes of association between title and message content of the news document have been set up: Agrees (body text agrees with headline), Disagrees (body text does not agree with headline), Discusses (body text discuss the same topic as the headline but does not take a position), Unrelated (body text discusses different topic than headline). The competition includes both a training and testing dataset. You may also notice that the top three participants used deep learning and neural network architectures and have maintained active GitHub account with all the source code made available, so that you may chose one to test and visualize the results.
 2.	Consider modifying the deep learning architecture (e.g., to include CNN and attention layer or any other architecture of your choice), write down the corresponding script and test it using the same dataset to record its performance in terms of accuracy levels on each of the four classes.
